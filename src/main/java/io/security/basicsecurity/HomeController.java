@@ -15,4 +15,11 @@ public class HomeController {
     }
 
 
+
+    @GetMapping("/home/bbs")
+    public String bbs(){
+        return "bbs";
+    }
+
+
 }
